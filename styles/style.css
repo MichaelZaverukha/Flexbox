@@ -26,13 +26,17 @@ nav{
    margin-top: 26px;
 }
 
-.nav-list{
-   display: flex;
+a{
+   text-decoration: none;
    font-style: normal;
    font-weight: 400;
    font-size: 16px;
    line-height: 28px;
    color: #2F281E;
+}
+
+.nav-list{
+   display: flex;
 }
 
 .nav-list :hover{
