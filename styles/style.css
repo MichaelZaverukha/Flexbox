@@ -1,0 +1,128 @@
+* {
+   box-sizing: border-box;
+}
+
+body{
+   font-family:'Monsterrat', sans-serif ;
+}
+
+header{
+   max-width: 1440px;
+   width: 100%;
+   height: 80px;
+   margin: 0 auto;
+   margin-bottom: 70px;
+}
+
+.logo{
+   margin-left: 120px;
+   display: inline-block;
+   margin-top: 24px;
+}
+
+nav{
+   display: inline-block;
+   margin-left: 200px;
+   margin-top: 26px;
+}
+
+.nav-list{
+   display: flex;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   color: #2F281E;
+}
+
+.nav-list :hover{
+   color:#FF9900 ;
+}
+
+.nav-list li:not(:last-child){
+   margin-right: 20px;
+}
+
+.buttons-section{
+   display: inline-block;
+   margin-left: 200px;
+   margin-top: 26px;
+}
+
+.button:first-child{
+   margin-right: 34px;
+}
+
+.button{
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 20px;
+   color: #2F281E;
+   background-color: white;
+   border: 1px solid rgb(197, 197, 197);
+   border-radius: 4px;
+   padding: 13px 23px;
+   text-align: center;
+}
+
+
+.button:last-child{
+   color: white;
+   background-color: #FF9900;
+}
+
+main{
+   max-width: 1200px;
+   width: 100%;
+   margin: 0px auto;
+}
+
+
+.second-header{
+   max-width: 500px;
+   width: 100%;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 44px;
+   line-height: 54px;
+   color: #2F281E;
+   margin-bottom: 30px;
+   padding-top: 100px;
+}
+
+.description{
+   max-width:490px;
+   width: 100%;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 28px;
+   color: #544837;
+   margin-bottom: 20px;
+}
+
+.start{
+   display: block;
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   background-color: #FF9900;
+   border: 1px solid rgb(197, 197, 197);
+   border-radius: 4px;
+   padding: 13px 43px;
+   color: white;
+}
+
+.main-section{
+   display: flex;
+   position: relative;
+}
+
+.section-image{
+   display: block;
+   margin-left: 50px;
+}
